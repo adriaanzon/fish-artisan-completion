@@ -1,5 +1,7 @@
+fish-artisan-completion
+=======================
+
 [Artisan][artisan] command completion for the [fish][fish] shell
-================================================================
 
 Installation
 ------------
