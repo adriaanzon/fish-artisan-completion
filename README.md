@@ -6,22 +6,21 @@ fish-artisan-completion
 Installation
 ------------
 
-You can manually install this by copying the following files to your machine:
+You can manually install this by copying the files in the
+[completions](completions) directory to `~/.config/fish/completions/` on your
+machine.
 
-| file                                                 | location                                |
-| ----                                                 | --------                                |
-| [functions/artisan.fish](functions/artisan.fish)     | ~/.config/fish/functions/artisan.fish   |
-| [completions/artisan.fish](completions/artisan.fish) | ~/.config/fish/completions/artisan.fish |
+Or, if you have one, you can use a plugin manager.
 
-Or, if you use one, you can use a plugin manager.
+Usage
+-----
+The completion works on both `php artisan` and `./artisan`. A function or alias
+named `artisan` will work too.
 
-Caveats
--------
+Todo
+----
 
-- It only works when you type `artisan` or `./artisan`, not when you type `php
-  artisan`, like you would normally. That's why an `artisan` function is
-  provided.
-- Command options are not (yet) supported.
+- [ ] Support command flags
 
 [artisan]: https://laravel.com/docs/master/artisan
 [fish]: https://fishshell.com

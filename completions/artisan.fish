@@ -6,4 +6,4 @@ function __artisan_complete --description "Completion for Laravel's artisan comm
     | sed 's/\s\+/\t/'
 end
 
-complete -f -c artisan -n 'test -f artisan' -a '(__artisan_complete)'
+complete -c artisan -f -n 'test -f artisan' -a '(__artisan_complete)'
