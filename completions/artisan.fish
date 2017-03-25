@@ -1,9 +1,5 @@
 function __fish_artisan_commands_with_descriptions
-  php artisan --no-ansi ^ /dev/null \
-    | sed '1,/Available commands/d' \
-    | grep -E '^  ' \
-    | sed 's/^  //' \
-    | sed 's/\s\+/\t/'
+  php artisan list --raw ^ /dev/null | grep -vE '^ ' | sed 's/\s\+/\t/'
 end
 
 function __fish_artisan_commands
