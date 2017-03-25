@@ -17,10 +17,5 @@ Usage
 The completion works on both `php artisan` and `./artisan`. A function or alias
 named `artisan` will work too.
 
-Todo
-----
-
-- [ ] Support command flags
-
 [artisan]: https://laravel.com/docs/master/artisan
 [fish]: https://fishshell.com
