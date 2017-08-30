@@ -1,5 +1,5 @@
 function __fish_artisan_commands_with_descriptions
-  php artisan list --raw ^ /dev/null | grep -vE '^ ' | sed 's/\s\+/\t/'
+  php artisan list --raw ^ /dev/null | grep -vE '^ ' | string replace -r '\s+' '\t'
 end
 
 function __fish_artisan_commands
