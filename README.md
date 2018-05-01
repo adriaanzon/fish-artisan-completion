@@ -19,7 +19,7 @@ Usage
 The completion works on both `php artisan` and `./artisan`. A function or alias
 named `artisan` will work too.
 
-### Usage after [`4414d5c8`][fish-commit]
+### Usage in fish 3.0
 
 Commit [`4414d5c8`][fish-commit] in fish-shell (unreleased) broke this
 completion, because `artisan` is not an executable in `$PATH`. As a workaround,
