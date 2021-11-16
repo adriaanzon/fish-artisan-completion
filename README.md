@@ -8,13 +8,13 @@ Installation
 
 ### Manual
 
-Copy the following files to your machine:
+To manually install the files from the [completions](completions) and [functions](functions) directories on your machine, you may run these commands:
 
-| file                                                 | location                                |
-| ----                                                 | --------                                |
-| [completions/artisan.fish](completions/artisan.fish) | ~/.config/fish/completions/artisan.fish |
-| [completions/php.fish](completions/php.fish)         | ~/.config/fish/completions/php.fish     |
-| [functions/artisan.fish](functions/artisan.fish)     | ~/.config/fish/functions/artisan.fish   |
+```fish
+curl -L --create-dirs -o ~/.config/fish/completions/artisan.fish https://github.com/adriaanzon/fish-artisan-completion/raw/master/completions/artisan.fish
+curl -L --create-dirs -o ~/.config/fish/completions/php.fish https://github.com/adriaanzon/fish-artisan-completion/raw/master/completions/php.fish
+curl -L --create-dirs -o ~/.config/fish/functions/artisan.fish https://github.com/adriaanzon/fish-artisan-completion/raw/master/functions/artisan.fish
+```
 
 ### Plugin manager
 
